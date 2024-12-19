@@ -49,3 +49,29 @@ body {
     max-width: 40%;
     margin: 0 auto;
 }
+
+
+@media (max-width: 768px) {
+    .grid-container {
+        padding: 0 10px;
+        max-width: 75%;
+    }
+
+    .ingredients-box {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .ingredients-box {
+        padding: 0.8rem;
+    }
+
+    .grid-container{
+        max-width: 95%;
+    }
+
+    .btn {
+        width: 90%;
+    }
+}
