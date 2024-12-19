@@ -50,6 +50,9 @@ body {
     margin: 0 auto;
 }
 
+.btn {
+    margin-bottom: 10px;
+}
 
 @media (max-width: 768px) {
     .grid-container {
